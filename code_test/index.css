@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('1184325-drawing-painting-portrait-glasses-yellow-Walter-White-hair-Breaking-Bad-head-ART-color-beard-facial-hair-self-portrait.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 400px;
+    position: relative;
+    align-items: start;
+    justify-content: flex-start;
+    padding: 1rem;
+    right: 30%;
+    left: -406px;
+    box-shadow: 1px 10px 50px 10px rgb(32, 32, 32);
+
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 4rem;
+    text-shadow: 10px 10px 20px black;
+}
+
+#user_input {
+
+    width: 300px;
+    height: 1.5rem;
+
+}
+
+#search {
+    position: relative;
+    left: -10px;
+    width: 5rem;
+    left: 10px;
+    height: 1.5rem;
+    border: 0;
+
+}
+
+
+.circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid rgb(243, 227, 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: conic-gradient(rgb(172, 185, 48) var(--progress, 0%),
+            rgb(143, 143, 143) 0%);
+    flex-direction: column;
+}
+
+.circle span {
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+    color: white;
+}
+
+.progress {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    top: 10px;
+    gap: 10px;
+}
+
+.loading {
+    position: relative;
+    top: 10px;
+    font-weight: 700;
+}
